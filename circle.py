@@ -1,8 +1,18 @@
 from manim import *
 
-from manim_data_structures import *
-
-class ArrayScene(Scene):
+class CircleExplanation(Scene):
     def construct(self):
-        arr = MArray(self, [1, 2, 3], label='Arr')
-        self.add(arr)
+        # Create a circle
+        circle = Circle(radius=1, color=BLUE)
+
+        # Add the circle to the scene
+        self.add(circle)
+
+        # Create text using LaTeX
+        explanation_text = MathTex(r"\text{Why does it have } 360^\circ").next_to(circle, UP)
+
+        # Add the text to the scene
+        self.add(explanation_text)
+
+        # Display the scene
+        self.wait(2)  # Wait for 2 seconds before ending the scene

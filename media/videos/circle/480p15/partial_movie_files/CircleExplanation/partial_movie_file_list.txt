@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:F:/6-Matematik ß/Manim/3,3/media/videos/circle/480p15/partial_movie_files/CircleExplanation/1185818338_634017564_709924060.mp4'
